@@ -39,12 +39,6 @@ const medusaConfig = {
       jwtSecret: JWT_SECRET,
       cookieSecret: COOKIE_SECRET,
     },
-    databaseDriverOptions: {
-      pool: {
-        min: 10,
-        max: 40,
-      },
-    },
     build: {
       rollupOptions: {
         external: ['@medusajs/dashboard'],
